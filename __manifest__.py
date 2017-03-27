@@ -25,7 +25,8 @@
     "version": "1.0.0",
     "license": "AGPL-3",
     "description": """
-        Add new parameters for paper
+        This module allows you to add new parameters for a paper format
+        which are then forwarded to wkhtmltopdf command as arguments.
     """,
     "author": "Avoin.Systems",
     "website": "https://avoin.systems",
@@ -34,6 +35,7 @@
         "report",
     ],
     "data": [
+        "security/ir.model.access.csv",
         "views/paperformat.xml",
     ],
     "installable": True,  # Can the module be installed or not
